@@ -1,9 +1,9 @@
 # Moneris
 Simulate Login to Moneris:
 
-a) [Merchant Resource Center (MRC or MPG)](https://www3.moneris.com/mpg/index.php)
+a) Merchant Resource Center (MRC or formerly MPG)
 
-b) [Merchant Direct (MD)](https://www1.moneris.com/merchantdirect)
+b) Merchant Direct (MD)
 
 Moneris lacks an API for many activities, such as downloading transactions. The Moneris API is poor but their “home made” security is a disaster. Hard to believe, it is the software of this large financial institution in 2021. Also, I cannot understand why their services are so expensive.
 
