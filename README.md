@@ -3,9 +3,9 @@ Login to Moneris
  * [Merchant Resource Center (MRC or MPG)](https://www3.moneris.com/mpg/index.php)
  * [Merchant Direct (MD)](https://www1.moneris.com/merchantdirect)
 
-I cannot believe that there is no API for Moneris transactions. But today (2021-08-05), it is not so hard to make one GET and POST requests to simulate user access into both MRC and MD. Then, it takes one more POST to download transactions or anything else.
+Moneris lacks an API for many activities, such as downloading transactions. The Moneris API is poor but their “home made” security is a disaster. Hard to believe, it is the software of this large financial institution in 2021. Also, I cannot understand why their services are so expensive.
 
-The Moneris API is poor but their “home made” security is a disaster. I cannot understand why their services are so expensive.
+But, it allows us to easily simulate user access into both MRC and MD. It requires one GET and POST request to be logged in. Then, you can make one more POST to download transactions or anything else.
 
 ## Merchant Resource Center
 If you need to simulate login to MRC:
