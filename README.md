@@ -16,8 +16,8 @@ If you need to simulate login to MRC:
 
 ## Merchant Direct
 If you need to simulate login to MD:
-* Send GET request to [MD login form]((https://www1.moneris.com/cgi-bin/rbaccess/rbunxcgi?F6=1&F7=L8&F21=PB&F22=L8&REQUEST=ClientSignin&LANGUAGE=ENGLISH)
-  * Note: Use URL from my link where https://www1.moneris.com/merchantdirect is redirected
+* Send GET request to [MD login form](https://www1.moneris.com/cgi-bin/rbaccess/rbunxcgi?F6=1&F7=L8&F21=PB&F22=L8&REQUEST=ClientSignin&LANGUAGE=ENGLISH)
+  * Note: Use https://www1.moneris.com/cgi-bin/rbaccess/rbunxcgi?F6=1&F7=L8&F21=PB&F22=L8&REQUEST=ClientSignin&LANGUAGE=ENGLISH instead of https://www1.moneris.com/merchantdirect (this one redirects user to login page)
 * Send POST request to [MD login form](https://www1.moneris.com/cgi-bin/rbaccess/rbunxcgi?F6=1&F7=L8&F21=PB&F22=L8&REQUEST=ClientSignin&LANGUAGE=ENGLISH) and use hidden input fields from the response to your previous GET request (esp. `<INPUT NAME="SST" TYPE="HIDDEN" VALUE="this_is_verified_value">` is needed) + your credentials (`<input NAME="USERID">` and `<input NAME="PASSWORD">`). 
 * You are logged in... Use cookies from response for further activities.
 
